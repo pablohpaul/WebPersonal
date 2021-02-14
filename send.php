@@ -20,7 +20,7 @@ $mensaje = "Este mensaje fue enviado por " ;
 $para = "pablohpaul@hotmail.com";
 $asunto = 'Consulta desde formulario web';
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+mail($para, $asunto, $mensaje);
 
 echo 'mensaje enviado correctamente';
 
