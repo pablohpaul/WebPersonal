@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+/* jQuery(document).ready(function($) {
   "use strict";
 
   //Contact
@@ -13,7 +13,6 @@ jQuery(document).ready(function($) {
       var rule = i.attr('data-rule');
 
       if (rule !== undefined) {
-        var ierror = false; // error flag for current input
         var pos = rule.indexOf(':', 0);
         if (pos >= 0) {
           var exp = rule.substr(pos + 1, rule.length);
@@ -92,7 +91,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = 'contactform/send.php';
     }
     $.ajax({
       type: "POST",
@@ -116,3 +115,4 @@ jQuery(document).ready(function($) {
   });
 
 });
+ */
